@@ -40,6 +40,8 @@ body
     font-size: 100px;
     color: white;
     letter-spacing: 15px;
+    transition: all 10s ease-in-out;
+    
     /*background-color:blue;*/
 }
 
@@ -50,7 +52,9 @@ body
     float:left;
     margin-right: 20px;
     /*background-color:coral;*/
-   
+    background-image: url('img/hangman0.png');
+    background-size: cover;
+    transition: all .3s ease-in-out;
 }
 
 #alphabet
@@ -67,7 +71,7 @@ body
 .letter
 {   
     float: left;
-    width: 50px;
+    width: 47px;
     height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -89,6 +93,7 @@ body
 
 .message
 {
+    transition: all .3s ease-in-out;
     font-size:40px;
     letter-spacing: 2.5px;
 }
